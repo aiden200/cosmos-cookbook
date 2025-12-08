@@ -7,8 +7,11 @@
 
 You can experiment with these recipes and customize them for your own videos using this [Brev instance](https://brev.nvidia.com/launchable/deploy?launchableID=env-36ZkptMd4kDDzFGMYN9lz9Ixnel). It comes fully pre-configured and will automatically provision the necessary compute so you can get started right away.
 
+<<<<<<< HEAD
 [![Brev Instance](./assets/nv-lb-dark.svg)](https://brev.nvidia.com/launchable/deploy?launchableID=env-36ZkptMd4kDDzFGMYN9lz9Ixnel)
 
+=======
+>>>>>>> aec56ef (added brev instance and ov examples to the cookbook (#107))
 | **Model** | **Workload** | **Use Case** |
 |-----------|--------------|--------------|
 | [Cosmos Transfer 2.5](https://github.com/nvidia-cosmos/cosmos-transfer2.5) | Inference | Multi-control video editing for background replacement, lighting adjustment, object transformation, and color/texture changes |
