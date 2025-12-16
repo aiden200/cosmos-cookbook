@@ -33,9 +33,12 @@ For a detailed explanation of each control modality, please refer to the [contro
 =======
 To understand what each control modality does, please refer to our [control modality concepts page](../core_concepts/control_modalities/overview.md). This page will be focused on showing some different results that we can make.
 
+<<<<<<< HEAD
 For a detailed explanation of each control modality, please refer to the [control modality concepts page](../core_concepts/control_modalities/overview.md). This gallery focuses on visual results, highlighting the range of transformations achievable with Cosmos Transfer 2.5.
 
 >>>>>>> 37ce3a5 (added bear on the road)
+=======
+>>>>>>> 36a297e (removed duplicate)
 **Use Case**: Vision based applications can leverage these techniques to train, test, and validate perception systems under diverse and challenging conditions without additional data collection.
 
 <style>
