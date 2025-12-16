@@ -7,9 +7,12 @@
 We provide a dedicated Brev instance to help you follow along with these examples. The default configuration uses 8× H100 GPUs, but you can switch to 1× H100 to reduce costs (with slower inference performance).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![Brev Instance](./vs_assets/nv-lb-dark.svg)](https://brev.nvidia.com/launchable/deploy/now?launchableID=env-36zmq6sDzikZ1gBSN5Fu3sKezJC)
 =======
 
+=======
+>>>>>>> 37ce3a5 (added bear on the road)
 [![Brev Instance](./vs_assets/nv-lb-dark.svg)](https://brev.nvidia.com/launchable/deploy?launchableID=env-36KJKKHoOQkFr3FJPpDtinC7QuX)
 >>>>>>> ae05a33 (adding vision ai examples without assets)
 
@@ -17,6 +20,7 @@ We provide a dedicated Brev instance to help you follow along with these example
 
 This page showcases results generated with Cosmos Transfer 2.5 for Vision AI applications. The examples demonstrate sim-to-real transfer across a variety of urban and roadway scenarios, illustrating how source videos can be transformed to reflect different times of day, lighting conditions, weather, environmental effects, and scene elements.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 To understand what each control modality does, please refer to our [control modality concepts page](../core_concepts/control_modalities/overview.md). This page will be focused on showing some different results that we can make.
 =======
@@ -26,6 +30,12 @@ For a detailed explanation of each control modality, please refer to the [contro
 
 >>>>>>> ae05a33 (adding vision ai examples without assets)
 
+=======
+To understand what each control modality does, please refer to our [control modality concepts page](../core_concepts/control_modalities/overview.md). This page will be focused on showing some different results that we can make.
+
+For a detailed explanation of each control modality, please refer to the [control modality concepts page](../core_concepts/control_modalities/overview.md). This gallery focuses on visual results, highlighting the range of transformations achievable with Cosmos Transfer 2.5.
+
+>>>>>>> 37ce3a5 (added bear on the road)
 **Use Case**: Vision based applications can leverage these techniques to train, test, and validate perception systems under diverse and challenging conditions without additional data collection.
 
 <style>
@@ -160,9 +170,12 @@ For a detailed explanation of each control modality, please refer to the [contro
 We showcase the different input control modalities used for this highway scene.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> ae05a33 (adding vision ai examples without assets)
+=======
+>>>>>>> 37ce3a5 (added bear on the road)
 <div class="carousel" data-interval="5000">
   <div class="carousel-track">
     <article class="carousel-slide is-active">
@@ -260,9 +273,12 @@ We showcase the different input control modalities used for this highway scene.
 </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> ae05a33 (adding vision ai examples without assets)
+=======
+>>>>>>> 37ce3a5 (added bear on the road)
 We now show example results generated using these control modalities.
 
 ### Examples
@@ -417,11 +433,16 @@ We now show example results generated using these control modalities.
       <div class="params">guidance: 7, edge: 0.5, seg: 0.8, depth: 0.4</div>
       <div class="label">Input Prompt</div>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div class="prompt">A video of a winding four-lane divided highway cutting through a rural landscape of rolling hills, dry brown grass, and leafless trees under a gray, overcast sky. A large brown bear stands in the middle of the roadway near the center divide, facing slightly toward the oncoming lanes.
       </div>
 =======
       <div class="prompt">A video of a winding four-lane divided highway cutting through a rural landscape of rolling hills, dry brown grass, and leafless trees under a gray, overcast sky. Scattered debris is visible across the roadway, including fallen tree branches, loose gravel, and small roadside fragments spread along the lanes and shoulders. A white sedan travels away from the camera in the right lane, subtly adjusting its path as it navigates a gentle S-curve, while a maroon SUV and a white work truck approach cautiously in the oncoming lanes, avoiding debris near the center divide. The scene captures light traffic moving through mildly hazardous daytime conditions.</div>
 >>>>>>> ae05a33 (adding vision ai examples without assets)
+=======
+      <div class="prompt">A video of a winding four-lane divided highway cutting through a rural landscape of rolling hills, dry brown grass, and leafless trees under a gray, overcast sky. A large brown bear stands in the middle of the roadway near the center divide, facing slightly toward the oncoming lanes.
+      </div>
+>>>>>>> 37ce3a5 (added bear on the road)
     </div>
   </div>
   <div class="masonry-card">
@@ -461,13 +482,17 @@ We now show example results generated using these control modalities.
     </div>
   </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 </div>
 
 =======
   
 </div>
+=======
+>>>>>>> 37ce3a5 (added bear on the road)
 
+</div>
 
 >>>>>>> ae05a33 (adding vision ai examples without assets)
 ## Edge & Depth Control only for Environmental Variations
@@ -477,10 +502,14 @@ This example demonstrates how to transform videos into scenes with different env
 ### Fog Changes
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 This scene shows different fog augmentations generated by varying the control modalities.
 =======
 This scene shows different fog augmentations generated by varying the control modalities. 
 >>>>>>> ae05a33 (adding vision ai examples without assets)
+=======
+This scene shows different fog augmentations generated by varying the control modalities.
+>>>>>>> 37ce3a5 (added bear on the road)
 
 <div class="carousel" data-interval="5000">
   <div class="carousel-track">
@@ -524,10 +553,14 @@ This scene shows different fog augmentations generated by varying the control mo
 ### Lighting Changes
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 This scene shows different lighting conditions generated by varying the control modalities.
 =======
 This scene shows different lighting conditions generated by varying the control modalities. 
 >>>>>>> ae05a33 (adding vision ai examples without assets)
+=======
+This scene shows different lighting conditions generated by varying the control modalities.
+>>>>>>> 37ce3a5 (added bear on the road)
 
 <div class="carousel" data-interval="5000">
   <div class="carousel-track">
@@ -603,6 +636,7 @@ This scene shows different lighting conditions generated by varying the control 
 </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Night Augmentations
 
 This scene shows different night conditions generated by varying the control modalities.
@@ -612,6 +646,11 @@ This scene shows different night conditions generated by varying the control mod
 
 This scene shows different night conditions generated by varying the control modalities. 
 >>>>>>> ae05a33 (adding vision ai examples without assets)
+=======
+### Night Augmentations
+
+This scene shows different night conditions generated by varying the control modalities.
+>>>>>>> 37ce3a5 (added bear on the road)
 
 <div class="carousel" data-interval="5000">
   <div class="carousel-track">
@@ -670,6 +709,7 @@ This scene shows different night conditions generated by varying the control mod
 </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Rain Augmentations
 
 This scene shows different rainy conditions generated by varying the control modalities.
@@ -679,6 +719,11 @@ This scene shows different rainy conditions generated by varying the control mod
 
 This scene shows different rainy conditions generated by varying the control modalities. 
 >>>>>>> ae05a33 (adding vision ai examples without assets)
+=======
+### Rain Augmentations
+
+This scene shows different rainy conditions generated by varying the control modalities.
+>>>>>>> 37ce3a5 (added bear on the road)
 
 <div class="carousel" data-interval="5000">
   <div class="carousel-track">
@@ -722,10 +767,14 @@ This scene shows different rainy conditions generated by varying the control mod
 ### Snow Augmentations
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 This scene shows different snowy conditions generated by varying the control modalities.
 =======
 This scene shows different snowy conditions generated by varying the control modalities. 
 >>>>>>> ae05a33 (adding vision ai examples without assets)
+=======
+This scene shows different snowy conditions generated by varying the control modalities.
+>>>>>>> 37ce3a5 (added bear on the road)
 
 <div class="carousel" data-interval="5000">
   <div class="carousel-track">
@@ -767,6 +816,7 @@ This scene shows different snowy conditions generated by varying the control mod
 </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Other Video Examples
 
 Here are some results from similar other videos.
@@ -776,6 +826,11 @@ Here are some results from similar other videos.
 
 Here are some results from similar other videos. 
 >>>>>>> ae05a33 (adding vision ai examples without assets)
+=======
+## Other Video Examples
+
+Here are some results from similar other videos.
+>>>>>>> 37ce3a5 (added bear on the road)
 
 ### Video Example 1
 
@@ -921,10 +976,13 @@ Here are some results from similar other videos.
 </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> ae05a33 (adding vision ai examples without assets)
+=======
+>>>>>>> 37ce3a5 (added bear on the road)
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const firstSentence = (text) => {
@@ -1010,6 +1068,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> ae05a33 (adding vision ai examples without assets)
+=======
+>>>>>>> 37ce3a5 (added bear on the road)
