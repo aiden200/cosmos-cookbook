@@ -6,13 +6,25 @@
 
 We provide a dedicated Brev instance to help you follow along with these examples. The default configuration uses 8× H100 GPUs, but you can switch to 1× H100 to reduce costs (with slower inference performance).
 
+<<<<<<< HEAD
 [![Brev Instance](./vs_assets/nv-lb-dark.svg)](https://brev.nvidia.com/launchable/deploy/now?launchableID=env-36zmq6sDzikZ1gBSN5Fu3sKezJC)
+=======
+
+[![Brev Instance](./vs_assets/nv-lb-dark.svg)](https://brev.nvidia.com/launchable/deploy?launchableID=env-36KJKKHoOQkFr3FJPpDtinC7QuX)
+>>>>>>> ae05a33 (adding vision ai examples without assets)
 
 ## Overview
 
 This page showcases results generated with Cosmos Transfer 2.5 for Vision AI applications. The examples demonstrate sim-to-real transfer across a variety of urban and roadway scenarios, illustrating how source videos can be transformed to reflect different times of day, lighting conditions, weather, environmental effects, and scene elements.
 
+<<<<<<< HEAD
 To understand what each control modality does, please refer to our [control modality concepts page](../core_concepts/control_modalities/overview.md). This page will be focused on showing some different results that we can make.
+=======
+To understand what each control modality does, please refer to our [control modality concepts page](../core_concepts/control_modalities/overview.md). This page will be focused on showing some different results that we can make. 
+
+For a detailed explanation of each control modality, please refer to the [control modality concepts page](../core_concepts/control_modalities/overview.md). This gallery focuses on visual results, highlighting the range of transformations achievable with Cosmos Transfer 2.5.
+
+>>>>>>> ae05a33 (adding vision ai examples without assets)
 
 **Use Case**: Vision based applications can leverage these techniques to train, test, and validate perception systems under diverse and challenging conditions without additional data collection.
 
@@ -147,6 +159,10 @@ To understand what each control modality does, please refer to our [control moda
 
 We showcase the different input control modalities used for this highway scene.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae05a33 (adding vision ai examples without assets)
 <div class="carousel" data-interval="5000">
   <div class="carousel-track">
     <article class="carousel-slide is-active">
@@ -243,6 +259,10 @@ We showcase the different input control modalities used for this highway scene.
   </div>
 </div>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae05a33 (adding vision ai examples without assets)
 We now show example results generated using these control modalities.
 
 ### Examples
@@ -396,8 +416,12 @@ We now show example results generated using these control modalities.
       <div class="label">Parameters - Debris</div>
       <div class="params">guidance: 7, edge: 0.5, seg: 0.8, depth: 0.4</div>
       <div class="label">Input Prompt</div>
+<<<<<<< HEAD
       <div class="prompt">A video of a winding four-lane divided highway cutting through a rural landscape of rolling hills, dry brown grass, and leafless trees under a gray, overcast sky. A large brown bear stands in the middle of the roadway near the center divide, facing slightly toward the oncoming lanes.
       </div>
+=======
+      <div class="prompt">A video of a winding four-lane divided highway cutting through a rural landscape of rolling hills, dry brown grass, and leafless trees under a gray, overcast sky. Scattered debris is visible across the roadway, including fallen tree branches, loose gravel, and small roadside fragments spread along the lanes and shoulders. A white sedan travels away from the camera in the right lane, subtly adjusting its path as it navigates a gentle S-curve, while a maroon SUV and a white work truck approach cautiously in the oncoming lanes, avoiding debris near the center divide. The scene captures light traffic moving through mildly hazardous daytime conditions.</div>
+>>>>>>> ae05a33 (adding vision ai examples without assets)
     </div>
   </div>
   <div class="masonry-card">
@@ -436,16 +460,27 @@ We now show example results generated using these control modalities.
       <div class="prompt">A video of a winding four-lane divided highway cutting through a rural landscape of rolling hills, dry brown grass, and leafless trees. A white sedan travels away from the camera in the right lane. Both sides of the road are lined with wide sidewalks densely populated with pedestrians—dozens of clearly visible people walking in clusters and alone. Individuals wear jackets, hats, and backpacks, some talking to each other, others looking at their phones or walking dogs. The constant movement of people along the sidewalks is a dominant visual element, contrasting with the light vehicle traffic on the road. The scene unfolds under a gray, overcast sky, emphasizing a cool, busy daytime atmosphere.</div>
     </div>
   </div>
+<<<<<<< HEAD
 
 </div>
 
+=======
+  
+</div>
+
+
+>>>>>>> ae05a33 (adding vision ai examples without assets)
 ## Edge & Depth Control only for Environmental Variations
 
 This example demonstrates how to transform videos into scenes with different environmental conditions and surface materials using edge and depth control. Edge control preserves the original scene structure and motion, while depth control maintains the spatial relationships between objects. All the prompts are the same as the above examples.
 
 ### Fog Changes
 
+<<<<<<< HEAD
 This scene shows different fog augmentations generated by varying the control modalities.
+=======
+This scene shows different fog augmentations generated by varying the control modalities. 
+>>>>>>> ae05a33 (adding vision ai examples without assets)
 
 <div class="carousel" data-interval="5000">
   <div class="carousel-track">
@@ -488,7 +523,11 @@ This scene shows different fog augmentations generated by varying the control mo
 
 ### Lighting Changes
 
+<<<<<<< HEAD
 This scene shows different lighting conditions generated by varying the control modalities.
+=======
+This scene shows different lighting conditions generated by varying the control modalities. 
+>>>>>>> ae05a33 (adding vision ai examples without assets)
 
 <div class="carousel" data-interval="5000">
   <div class="carousel-track">
@@ -563,9 +602,16 @@ This scene shows different lighting conditions generated by varying the control 
   </div>
 </div>
 
+<<<<<<< HEAD
 ### Night Augmentations
 
 This scene shows different night conditions generated by varying the control modalities.
+=======
+
+### Night Augmentations
+
+This scene shows different night conditions generated by varying the control modalities. 
+>>>>>>> ae05a33 (adding vision ai examples without assets)
 
 <div class="carousel" data-interval="5000">
   <div class="carousel-track">
@@ -623,9 +669,16 @@ This scene shows different night conditions generated by varying the control mod
   </div>
 </div>
 
+<<<<<<< HEAD
 ### Rain Augmentations
 
 This scene shows different rainy conditions generated by varying the control modalities.
+=======
+
+### Rain Augmentations
+
+This scene shows different rainy conditions generated by varying the control modalities. 
+>>>>>>> ae05a33 (adding vision ai examples without assets)
 
 <div class="carousel" data-interval="5000">
   <div class="carousel-track">
@@ -668,7 +721,11 @@ This scene shows different rainy conditions generated by varying the control mod
 
 ### Snow Augmentations
 
+<<<<<<< HEAD
 This scene shows different snowy conditions generated by varying the control modalities.
+=======
+This scene shows different snowy conditions generated by varying the control modalities. 
+>>>>>>> ae05a33 (adding vision ai examples without assets)
 
 <div class="carousel" data-interval="5000">
   <div class="carousel-track">
@@ -709,9 +766,16 @@ This scene shows different snowy conditions generated by varying the control mod
   </div>
 </div>
 
+<<<<<<< HEAD
 ## Other Video Examples
 
 Here are some results from similar other videos.
+=======
+
+## Other Video Examples
+
+Here are some results from similar other videos. 
+>>>>>>> ae05a33 (adding vision ai examples without assets)
 
 ### Video Example 1
 
@@ -835,12 +899,20 @@ Here are some results from similar other videos.
         <div class="text-block">
           <div class="label">Parameters - Rain Augmentation</div>
           <span class="preview-text"></span>
+<<<<<<< HEAD
           <span class="full-text">guidance: 3, edge: 1.0, depth: 0.9</span>
+=======
+          <span class="full-text">guidance: 3, edge: 0.5, depth: 1.0</span>
+>>>>>>> ae05a33 (adding vision ai examples without assets)
         </div>
         <div class="text-block">
           <div class="label">Input Prompt</div>
           <span class="preview-text"></span>
+<<<<<<< HEAD
           <span class="full-text">A video overlooking a wide bridge during steady rain. The roadway is darkened and slick with water, reflecting headlights and taillights across multiple lanes of traffic. The weather is gloomy and rainy. </span>
+=======
+          <span class="full-text">A static, high-angle shot overlooking a wide bridge during steady rain. The roadway is darkened and slick with water, reflecting headlights and taillights across multiple lanes of traffic. Heavy congestion fills the lanes moving away from the camera, where vehicles—including a white sedan in the foreground—are stopped or inching forward slowly. In contrast, the oncoming lanes to the right remain relatively clear with sparse traffic. Raindrops and light mist soften the view of large overhead metal gantries spanning the road in the distance, set against an industrial backdrop beneath a low, overcast sky.</span>
+>>>>>>> ae05a33 (adding vision ai examples without assets)
         </div>
         <button class="see-more" type="button">Show full prompt</button>
       </div>
@@ -848,6 +920,11 @@ Here are some results from similar other videos.
   </div>
 </div>
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> ae05a33 (adding vision ai examples without assets)
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const firstSentence = (text) => {
@@ -932,3 +1009,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae05a33 (adding vision ai examples without assets)
